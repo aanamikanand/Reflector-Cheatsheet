@@ -1,0 +1,12 @@
+<h1>
+  Command: <%= @command %>
+</h1>
+<hr />
+
+<%= @command_value %>
+
+<% if @search %>
+  <a href='/search'>Search</a>
+<% else %>
+  <a href='/command_line_list'>Command Line List</a>
+<% end %>
